@@ -1,15 +1,23 @@
 # tic-tac-toe
 A module to implement and play a game of tic tac toe against the computer. 
+It utilizes Python's Tkinter GUI package.
+
+## How To Play:
 
 **User:** Blue</br>
 **Computer:** Pink
 
-The program contains a "RESTART" button to restart the game. 
+1. Click an empty, uncolored square to mark it.
 
-It displays an outcome message at the bottom when the user wins, the computer wins, or if there
-is a tie.
+2. The computer plays after the user. It chooses a random empty spot. 
 
-Utilizes Python's Tkinter GUI package.
+3. Repeat until the user wins, the computer wins, or if there
+is a tie. An outcome message will display a corresponding message when 
+this event occurs. A player wins if they get 3 in a row either 
+horizontally, vertically, or diagonally.
+
+4. Click the "RESTART" button to restart the game at any time.
+
 
 ## Possible Outcomes:
 
